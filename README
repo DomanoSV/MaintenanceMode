@@ -1,0 +1,43 @@
+MaintenanceMode Plugin 0.1.0 Beta
+
+Hello this is a MaintenanceMode Plugin.
+Works with CraftBukkit 1.2.5-R01
+
+This is another Plugin from the DKE Development Team, MaintenceMode is a simple light weight plugin that allows you to put your server into maintenance mode kicking all players that are not on the Admin list and also provides a message to players trying to logon to the server.
+
+Features
+
+- Set custom message for when players try to logon.
+- Can change the message so it suits the situation and day of maintenance.
+- Kicks all players except admins listed in the config when MaintenanceMode is enabled.
+- Can be used on both whitelisted and non-whitelisted servers.
+
+How to Use
+
+Commands:
+
+/mm enable [on/enable/true] - Enables Maintenance Mode
+/mm disable [off/disable/false] - Disables Maintenance Mode
+/mm msg <String> - Sets the message you wish to display when players try to logon to the server.
+
+Maintenance Mode Config:
+
+enabled: false
+maintenance-msg: The server is undergoing scheduled maintenance, please check back later.
+maintenance-kick-msg: We are now performing server maintenance, please check back later.
+admins:
+  - Player1
+  - Player2
+  - Player3
+
+Permission Nodes:
+
+maintenancemode.admin
+
+FuturePlans
+
+Add a schedule system so a date can be set when the server is to be closed for maintenance.
+Add a command so players can check when the next scheduled maintenance is to occur.
+
+Any bugs please send a bug report to support@dkebnh.net and I will fix it a soon as
+possible ;)

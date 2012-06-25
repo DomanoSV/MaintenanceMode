@@ -1,0 +1,12 @@
+author: DomanoSV
+description: MaintenanceMode bukkit plugin.
+name: MaintenanceMode
+version: 0.1.0a
+main: net.dkebnh.bukkit.MaintenanceMode.MaintenanceMode
+load: STARTUP
+url: http://www.dkebnh.net/
+commands:
+    mm:
+        description: MaintenanceModes standard command variable.
+        usage: /mm help for more information.
+        aliases: [mm, maintenancemode]
