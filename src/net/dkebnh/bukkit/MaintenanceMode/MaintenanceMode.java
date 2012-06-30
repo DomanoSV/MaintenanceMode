@@ -62,5 +62,4 @@ public class MaintenanceMode extends JavaPlugin {
 			}			
 		return false;
 	}
-	
 }

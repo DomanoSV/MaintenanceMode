@@ -1,7 +1,7 @@
 author: DomanoSV
 description: MaintenanceMode bukkit plugin.
 name: MaintenanceMode
-version: 0.1.0a
+version: 0.2.2
 main: net.dkebnh.bukkit.MaintenanceMode.MaintenanceMode
 load: STARTUP
 url: http://www.dkebnh.net/
