@@ -1,7 +1,7 @@
-MaintenanceMode Plugin 0.1.0 Beta
+MaintenanceMode Plugin 0.3.0 Beta
 
 Hello this is a MaintenanceMode Plugin.
-Works with CraftBukkit 1.2.5-R01
+This has been updated by code decompilation under GPL licensing from the jar on DBO.
 
 This is another Plugin from the DKE Development Team, MaintenceMode is a simple light weight plugin that allows you to put your server into maintenance mode kicking all players that are not on the Admin list and also provides a message to players trying to logon to the server.
 
