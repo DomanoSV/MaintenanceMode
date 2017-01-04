@@ -1,0 +1,19 @@
+author: DomanoSV        
+name: MaintenanceMode
+version: 0.3.1
+description: MaintenanceMode bukkit plugin. Maintained by Narimm from AddStarMC.
+main: net.dkebnh.bukkit.MaintenanceMode.MaintenanceMode
+load: STARTUP
+commands:
+    mm:
+        description: MaintenanceModes standard command variable.
+        usage: /mm help for more information.
+        aliases: [mm]
+    mmedit:
+        description: MaintenanceModes standard command variable.
+        usage: /mmedit help for more information.
+        aliases: [mmedit]
+    mmstatus:
+        description: MaintenanceModes standard command variable.
+        usage: /mmstatus help for more information.
+        aliases: [mmstatus]
