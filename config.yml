@@ -1,0 +1,19 @@
+enabled: false
+selectedmode: default
+update-checker:
+  enabled: true
+queryserver:
+  enabled: false
+  host: ''
+  port: 25575
+modes:
+  default:
+    kickOnEnable: true
+    kickMessage: We are now performing server maintenance, please check back later.
+    message: The server is undergoing scheduled maintenance, please check back later.
+    motd: Undergoing Maintenance
+  worldedit:
+    kickOnEnable: false
+    kickMessage: null
+    message: We are currently worldediting a new world, there maybe some lag.
+    motd: WorldEditing in Progress!!
